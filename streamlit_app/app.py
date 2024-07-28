@@ -80,9 +80,9 @@ with st.form(key='my_form'):
             }
 
             # Debugging output
-            st.write("Sending payload:", payload)
+            #st.write("Sending payload:", payload)
 
-            response = requests.post('https://obesesurveyproject.onrender.com/api/formdata/', json=payload)
+            response = requests.post('https://obesesurveybackend.onrender.com/api/formdata/', json=payload)
             
             
             # Debugging output
